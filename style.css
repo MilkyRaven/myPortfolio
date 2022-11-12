@@ -19,6 +19,13 @@ a:hover {
     background: black;
     color: white;
 }
+i {
+    padding: 3px;
+}
+i:hover {
+    background: white;
+    color: black;
+}
 h2 {
     margin: 20px;
     font-size: 2.5em;
@@ -131,7 +138,7 @@ video {
 /* Footer */
 footer {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     background-color: black;
     color: white;
