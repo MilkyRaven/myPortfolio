@@ -1,0 +1,24 @@
+* {
+    margin: auto 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    text-align: center;
+}
+.menu-bar {
+    display: flex;
+    flex-flow: row; 
+    list-style: none;
+} 
+.menu-bar li, .logo {
+    margin: 10px;
+}
