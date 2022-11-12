@@ -1,6 +1,7 @@
 * {
     margin: auto 0px;
     padding: 0px;
+    font-family: 'Space Mono', monospace;;
 }
 header {
     display: flex;
@@ -17,9 +18,14 @@ a {
 h2 {
     margin: 20px;
     font-size: 2.5em;
+    font-family: 'Rubik', sans-serif;
+}
+h3 {
+    font-family: 'Rubik', sans-serif;
 }
 .logo {
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 .menu-bar {
     display: flex;
