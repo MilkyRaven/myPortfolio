@@ -60,11 +60,25 @@ a {
 /* My Projects */
 video {
     width: 200px;
+    margin: 20px;
 }
 .projects {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 }
 .project-card {
-    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.project-card-2 {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.project-text {
+    margin: 20p;
 }
