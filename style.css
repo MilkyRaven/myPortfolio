@@ -40,7 +40,7 @@ a {
     width: 200px;
 }
 /*About */
-.about, .projects-intro {
+.about, .projects-intro, .btn-container {
     text-align: center;
     margin: 20px;
 }
@@ -81,4 +81,16 @@ video {
 }
 .project-text {
     margin: 20p;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+} 
+.btn {
+    margin: 10px;
+}
+/* Footer */
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
