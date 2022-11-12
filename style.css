@@ -6,6 +6,9 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 a {
     text-decoration: none;
@@ -21,4 +24,47 @@ a {
 } 
 .menu-bar li, .logo {
     margin: 10px;
+}
+/*Hello Section */
+.hello {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hello-text {
+    text-align: center;
+    margin: 20px;
+}
+.hello-img img {
+    width: 200px;
+}
+/*About */
+.about, .projects-intro {
+    text-align: center;
+    margin: 20px;
+}
+/* My Values */
+.values {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.value-item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 150px;
+    margin: 15px;
+}
+/* My Projects */
+video {
+    width: 200px;
+}
+.projects {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.project-card {
+    width: 300px;
 }
