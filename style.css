@@ -144,3 +144,6 @@ footer {
     color: white;
     height: 70px;
 }
+.social > a {
+    color: white;
+}
