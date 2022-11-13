@@ -74,6 +74,9 @@ h3, h4 {
     text-align: center;
     margin: 30px;
 }
+.about > p {
+    padding: 20px;
+}
 .btn-container {
     display: flex;
     flex-flow: column;
@@ -146,4 +149,9 @@ footer {
 }
 .social > a {
     color: white;
+}
+#separation {
+    font-size: 2em;
+    margin: 50px;
+    padding: 10px;
 }
