@@ -99,7 +99,7 @@ h3, h4 {
     width: 300px;
 }
 /* My Projects */
-video {
+video, #habitus {
     border-radius: 5px;
     margin: 20px;
     box-shadow: 0 10px 10px 0px #7e7e7e;
@@ -154,4 +154,7 @@ footer {
     font-size: 2em;
     margin: 50px;
     padding: 10px;
+}
+#habitus {
+    width: 550px;
 }
