@@ -108,7 +108,7 @@ video {
     width: 200px;
 }
 #square-vid{
-    width: 300px;
+    width: 450px;
 }
 .projects {
     display: flex;
@@ -161,4 +161,21 @@ footer {
     margin: 20px;
     box-shadow: 0 10px 10px 0px #7e7e7e;
 }
-/*comment*/
+#laptop {
+    width: 600px;
+}
+.illustrations {
+    width: 250px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.illustrations > img, .emotes > img {
+    margin: 15px;
+}
+.emotes {
+    width: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
