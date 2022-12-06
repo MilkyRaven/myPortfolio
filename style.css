@@ -156,7 +156,6 @@ footer {
     padding: 10px;
 }
 #habitus {
-    width: 550px;
     border-radius: 5px;
     margin: 20px;
     box-shadow: 0 10px 10px 0px #7e7e7e;
@@ -165,7 +164,6 @@ footer {
     width: 600px;
 }
 .illustrations {
-    width: 250px;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -174,7 +172,6 @@ footer {
     margin: 15px;
 }
 .emotes {
-    width: 100px;
     display: flex;
     flex-flow: row;
     justify-content: center;
