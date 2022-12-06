@@ -160,9 +160,6 @@ footer {
     margin: 20px;
     box-shadow: 0 10px 10px 0px #7e7e7e;
 }
-#laptop {
-    width: 600px;
-}
 .illustrations {
     display: flex;
     flex-flow: row;
