@@ -162,7 +162,7 @@ footer {
 }
 .illustrations {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 .illustrations > img, .emotes > img {
@@ -170,6 +170,16 @@ footer {
 }
 .emotes {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+        #square-vid, #laptop, #habitus {
+            width: 300px
+        }
+        .emotes > img {
+            width: 70px;
+        }
 }
