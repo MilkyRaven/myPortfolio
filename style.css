@@ -298,13 +298,13 @@ footer {
         font-size: 1.5rem;
         margin: 0 1.5rem;
     }
-    /* .navbar:hover {
+    .navbar:hover {
         width: 16rem;
     }
     .navbar:hover .link-text {
         display: inline;
         transition: opacity var(--transition-speed);
-    } */
+    }
 }
 
 @media only screen and (max-width: 600px) {
