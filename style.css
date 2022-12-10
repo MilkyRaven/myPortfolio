@@ -3,6 +3,18 @@
     padding: 0px;
     font-family: 'Space Mono', monospace;;
 }
+
+/* scrolling */
+body::-webkit-scrollbar {
+width: 0.7rem;
+}
+body::-webkit-scrollbar-track {
+    background:#7e7e7e;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(36, 122, 94);
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
