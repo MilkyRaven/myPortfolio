@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,80 @@
     <title>Milky Kiwi Portfolio</title>
     <script src="https://kit.fontawesome.com/821f69024f.js" crossorigin="anonymous"></script>
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="#home">MILKY KIWI</a>
-        </div>
-        <nav>
-            <ul class="menu-bar">
-                <li><a href="#about-me">about</a></li>  
-                <li><a class="links" href="#my-projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a class="nav-link" href="#home">
+                    <span class="link-text">MilkyKiwi</span>
+                    <svg class="logo" width="30" height="30" viewBox="0 0 150 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="67" cy="87" rx="67" ry="72" fill="#3FF8AE" fill-opacity="0.87"/>
+                        <ellipse cx="54" cy="97" rx="22" ry="26" transform="rotate(-10 54 97)" fill="#F4FFB4" fill-opacity="0.87"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M91.2463 154C127.634 148.548 149.5 116.333 149.5 77.4064C149.5 34.656 123.127 0 80.1091 0C40.8519 0 8.37789 28.8615 3 66.3977C14.2568 47.9672 34.6424 35.6539 57.922 35.6539C93.3792 35.6539 122.123 64.2189 122.123 99.4555C122.123 122.566 109.759 142.806 91.2463 154Z" fill="#624417"/>
+                        <ellipse rx="2.99927" ry="6.20177" transform="matrix(-0.0935076 -0.995619 0.996749 -0.0805694 19.4621 102.486)" fill="#624417"/>
+                        <path d="M30.3491 123.854C32.751 121.371 35.6245 120.315 36.7673 121.496C37.91 122.676 36.8893 125.646 34.4873 128.129C32.0854 130.612 29.2119 131.668 28.0691 130.488C26.9264 129.307 27.9471 126.337 30.3491 123.854Z" fill="#624417"/>
+                        <path d="M66.835 134.591C67.7641 138.059 67.14 141.239 65.441 141.694C63.742 142.149 61.6115 139.707 60.6823 136.24C59.7532 132.772 60.3773 129.592 62.0763 129.137C63.7754 128.682 65.9059 131.124 66.835 134.591Z" fill="#624417"/>
+                        <ellipse rx="2.93746" ry="6.33617" transform="matrix(0.558116 -0.829763 0.808325 0.588736 84.7139 118.444)" fill="#624417"/>
+                        <ellipse cx="96.055" cy="92.5801" rx="3" ry="6.5" transform="rotate(-105 96.055 92.5801)" fill="#624417"/>
+                        <ellipse rx="2.97501" ry="6.2552" transform="matrix(-0.695501 -0.718526 0.695276 -0.718742 80.4182 70.6335)" fill="#624417"/>
+                        <ellipse cx="47.8861" cy="60.2714" rx="3.37599" ry="6" transform="rotate(-5 47.8861 60.2714)" fill="#624417"/>
+                        <path d="M22.1298 73.6252C24.9584 75.6854 26.5174 78.4468 25.612 79.7929C24.7066 81.1391 21.6795 80.5602 18.8509 78.5C16.0222 76.4398 14.4632 73.6784 15.3686 72.3323C16.2741 70.9861 19.3011 71.565 22.1298 73.6252Z" fill="#624417"/>
+                        <ellipse rx="1.58098" ry="3.33733" transform="matrix(0.170977 -0.985275 0.984326 0.176359 32.5553 93.8386)" fill="#624417"/>
+                        <ellipse rx="1.5755" ry="3.34921" transform="matrix(-0.49402 -0.86945 0.862531 -0.506003 38.449 106.959)" fill="#624417"/>
+                        <ellipse cx="52" cy="114" rx="2" ry="3" fill="#624417"/>
+                        <ellipse cx="52" cy="114" rx="2" ry="3" fill="#624417"/>
+                        <ellipse rx="1.56707" ry="3.36733" transform="matrix(0.760957 -0.648803 0.636749 0.771071 66.1383 110.219)" fill="#624417"/>
+                        <ellipse cx="71.5" cy="97.5" rx="1.5" ry="3.5" transform="rotate(-90 71.5 97.5)" fill="#624417"/>
+                        <ellipse rx="1.5755" ry="3.34921" transform="matrix(-0.49402 -0.86945 0.862531 -0.506003 67.8031 86.1703)" fill="#624417"/>
+                        <ellipse cx="55.5" cy="79" rx="1.5" ry="3" transform="rotate(10 55.5 79)" fill="#624417"/>
+                        <ellipse rx="1.56707" ry="3.36733" transform="matrix(0.760957 -0.648803 0.636749 0.771071 39.4528 82.1997)" fill="#624417"/>
+                        </svg>      
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">
+                    <i class="fa-solid fa-kiwi-bird"></i>
+                    <span class="link-text">about</span></a>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#my-projects">
+                    <i class="fa-solid fa-robot"></i>
+                    <span class="link-text">projects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:milkykiwidev@gmail.com">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="link-text">mail</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://github.com/MilkyRaven">
+                    <i class="fa-brands fa-github-alt"></i>
+                    <span class="link-text">github</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/carol-gonzalez-gil/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="link-text">linkedin</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://twitter.com/milky_raven_">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="link-text">twitter</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
     <section id="home" class="hello">
         <div class="hello-text">
             <h2>Hello, I'm Milky <br> your web developer</h2>
@@ -39,28 +96,33 @@
     <section id="about-me" class="about">
         <i id="separation" class="fa-solid fa-code fa-beat" style="--fa-animation-duration: 2s;"></i>
         <h2>So... who is Milky?</h2>
-        <p>With a background in literature, art and social sciences, Milky decided to turn her rocketship 180 degrees and land into the tech world. What fuels Milky's journey?</p>
+        <p>With a background in literature, art and social sciences, Milky decided to turn her rocketship 180 degrees
+            and land into the tech world. What fuels Milky's journey?</p>
     </section>
     <section class="values">
         <div class="value-item">
             <h3>Learning</h3>
             <img width="150px" src="/public/img/study.png" alt="illustration of woman reading">
-            <p>Milky is in love with learning. She considers books to be the best companions and curiosity a powerful key to build a multifaceted personality.</p>
+            <p>Milky is in love with learning. She considers books to be the best companions and curiosity a powerful
+                key to build a multifaceted personality.</p>
         </div>
         <div class="value-item">
             <h3>Creativity</h3>
             <img width="200px" src="/public/img/create.png" alt="illustration of woman creating">
-            <p>She enjoys developing fresh ideas that provide value to the world. Thanks to her background, she has a keen eye for design and aesthetics.</p>
+            <p>She enjoys developing fresh ideas that provide value to the world. Thanks to her background, she has a
+                keen eye for design and aesthetics.</p>
         </div>
         <div class="value-item">
             <h3>Supportive</h3>
             <img width="230px" src="/public/img/support.png" alt="illustration of people inspiring each other">
-            <p>She loves to help others to become the best version of themselves, creating a warm environment for everyone to feel included. She believes that your success is also her success!</p>
+            <p>She loves to help others to become the best version of themselves, creating a warm environment for
+                everyone to feel included. She believes that your success is also her success!</p>
         </div>
         <div class="value-item">
             <h3>Excellence</h3>
             <img width="230px" src="/public/img/excellence.png" alt="">
-            <p>She commits to excellence and gives the best of herself in everything that she does. It is not what you do, but how you do it</p>
+            <p>She commits to excellence and gives the best of herself in everything that she does. It is not what you
+                do, but how you do it</p>
         </div>
         <div class="value-item">
             <h3>Kindness</h3>
@@ -70,10 +132,12 @@
         <div class="value-item">
             <h3>Resilience</h3>
             <img width="200px" src="/public/img/solving.png" alt="">
-            <p>You become stronger facing new challenges. She knows that life means change, so she embraces it and she's ready to take the reins!</p>
+            <p>You become stronger facing new challenges. She knows that life means change, so she embraces it and she's
+                ready to take the reins!</p>
         </div>
         <div class="value-item">
-            <p>Want to know more about Milky? check her <a href="https://www.linkedin.com/in/carol-gonzalez-gil/">Linkedin here</a></p>
+            <p>Want to know more about Milky? check her <a
+                    href="https://www.linkedin.com/in/carol-gonzalez-gil/">Linkedin here</a></p>
         </div>
     </section>
     <div id="my-projects" class="projects-intro">
@@ -82,14 +146,16 @@
     </div>
     <section class="projects">
         <div class="project-card-2">
-            <img id="habitus" width="530px" id="habitus" src="/public/img/habitus.png" alt="HabitUs App Screenshots">
+            <img id="habitus" width="650px" id="habitus" src="/public/img/habitus.png" alt="HabitUs App Screenshots">
             <div class="project-text">
                 <h3>HabitUs</h3>
                 <h4>A social media web app created with React, Node, Express, MongoDB and Talk.js</h4>
                 <div class="btn-container">
                     <a target="_blank" href="https://habit-us.netlify.app" class="btn">Check Live site</a>
-                    <a target="_blank" href="https://github.com/MilkyRaven/habitus_be" class="btn">Check backend repository</a>
-                    <a target="_blank" href="https://github.com/MilkyRaven/habitus_fe" class="btn">Check frontend repository</a>
+                    <a target="_blank" href="https://github.com/MilkyRaven/habitus_be" class="btn">Check backend
+                        repository</a>
+                    <a target="_blank" href="https://github.com/MilkyRaven/habitus_fe" class="btn">Check frontend
+                        repository</a>
                 </div>
             </div>
         </div>
@@ -99,18 +165,21 @@
                 <h3>Birdscape</h3>
                 <h4>A web design project developed with Figma</h4>
                 <div class="btn-container">
-                    <a target="_blank" href="https://www.figma.com/proto/SvQJEHoQDt7HAVJuCPh1z7/Bird-Web-App?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" class="btn">Check Figma Prototype</a>
+                    <a target="_blank"
+                        href="https://www.figma.com/proto/SvQJEHoQDt7HAVJuCPh1z7/Bird-Web-App?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"
+                        class="btn">Check Figma Prototype</a>
                 </div>
             </div>
         </div>
         <div class="project-card-2">
-            <video id="long-vid"  autoplay loop muted src="/public/vid/ecommerce.mp4"></video>
+            <video id="long-vid" autoplay loop muted src="/public/vid/ecommerce.mp4"></video>
             <div class="project-text">
                 <h3>Qmics</h3>
                 <h4>A vintage comics e-commerce built with Node, Express and MongoDB</h4>
                 <p>Check the catalogue, purchase comics and leave a review of your favourite (or hated) ones</p>
                 <div class="btn-container">
-                    <a target="_blank" href="https://github.com/MilkyRaven/Project_VintageComicShop" class="btn">Check repository</a>
+                    <a target="_blank" href="https://github.com/MilkyRaven/Project_VintageComicShop" class="btn">Check
+                        repository</a>
                 </div>
             </div>
         </div>
@@ -119,19 +188,24 @@
             <div class="project-text">
                 <h3>Damn Candy</h3>
                 <h4>A platform game built with JavaScript and Phaser.js</h4>
-                <p>Avoid the candy mutants, collect stars, reach the end of the level and help humanity to see another day!</p>
+                <p>Avoid the candy mutants, collect stars, reach the end of the level and help humanity to see another
+                    day!</p>
                 <div class="btn-container">
-                    <a target="_blank" href="https://milkyraven.github.io/Damn_Candy-Game-Project-/" class="btn">Check Live site</a>
-                    <a target="_blank" href="https://github.com/MilkyRaven/Damn_Candy-Game-Project-" class="btn">Check repository</a>
+                    <a target="_blank" href="https://milkyraven.github.io/Damn_Candy-Game-Project-/" class="btn">Check
+                        Live site</a>
+                    <a target="_blank" href="https://github.com/MilkyRaven/Damn_Candy-Game-Project-" class="btn">Check
+                        repository</a>
                 </div>
             </div>
         </div>
         <h3>Other Illustration Projects</h3>
         <div>
             <div class="illustrations">
-                <img width="230px" class="illustrations" src="/public/img/C137A5D7-E658-41E1-9083-3C8117F16842.png" alt="">
+                <img width="230px" class="illustrations" src="/public/img/C137A5D7-E658-41E1-9083-3C8117F16842.png"
+                    alt="">
                 <img width="230px" class="illustrations" src="/public/img/Silka.png" alt="">
-                <img width="230px" class="illustrations" src="/public/img/EF0A2CF1-6A54-4EED-9E16-E6640CE91FA7.jpeg" alt="">
+                <img width="230px" class="illustrations" src="/public/img/EF0A2CF1-6A54-4EED-9E16-E6640CE91FA7.jpeg"
+                    alt="">
             </div>
         </div>
         <div class="emotes">
@@ -140,14 +214,5 @@
             <img width="100px" class="emotes" src="/public/img/5E4246C2-3561-4532-9975-EE5895790518.png" alt="">
         </div>
     </section>
-    <footer id="contact">
-        <h5>Contact: milkykiwidev@gmail.com</h5>
-        <div class="social">
-            <a target="_blank" href="https://github.com/MilkyRaven"><i class="fa-brands fa-github-alt"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/carol-gonzalez-gil/"><i class="fa-brands fa-linkedin"></i></a>
-            <a target="_blank" href="https://twitter.com/milky_raven_"><i class="fa-brands fa-twitter"></i></a>
-            <a target="_blank" href="https://www.twitch.tv/milky_raven_/about"><i class="fa-brands fa-twitch"></i></a>
-        </div>
-        <h5>Created by Milky Kiwi</h5>
-    </footer>
+</main>
 </body>
