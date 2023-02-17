@@ -158,6 +158,7 @@ h4 {
 
 .hello-img img {
     width: 300px;
+    border-radius: 30% 70% 44% 56% / 58% 30% 70% 42%  ;
 }
 
 /*About */
